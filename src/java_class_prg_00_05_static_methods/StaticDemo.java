@@ -18,6 +18,10 @@ public class StaticDemo {
         b = StaticDemo.squareRoot(a);
         
         System.out.println("The square root of " + a + " is " + b);
+        
+        // Format method example        
+        System.out.println("Formatted that value is: " +
+                String.format("%.2f", b));
     }
     
     public static double squareRoot(double num) {
